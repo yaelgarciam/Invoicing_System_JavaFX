@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.tec.invoicing.controller.AppController">
+    <top>
+        <VBox spacing="4" styleClass="header-pane">
+            <children>
+                <Label text="Invoicing System" styleClass="app-title"/>
+                <Label text="New Invoice and Invoice History" styleClass="app-subtitle"/>
+            </children>
+        </VBox>
+    </top>
+    <center>
+        <TabPane tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="New Invoice">
+                    <content>
+                        <fx:include fx:id="invoiceView" source="invoice-view.fxml"/>
+                    </content>
+                </Tab>
+                <Tab text="Invoice History">
+                    <content>
+                        <fx:include fx:id="historyView" source="history-view.fxml"/>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </center>
+</BorderPane>

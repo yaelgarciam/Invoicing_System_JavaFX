@@ -1,0 +1,14 @@
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/controller/HistoryController.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/service/InvoiceNumberGenerator.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/model/InvoiceItem.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/model/Product.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/model/Invoice.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/model/CurrentInvoiceModel.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/service/InvoiceRepository.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/service/InvoiceService.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/service/CatalogService.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/controller/InvoiceController.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/MainApp.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/controller/ProductDialogController.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/model/Customer.java
+/Users/yaelgarciam/Invoicing_System_JavaFX/src/main/java/com/tec/invoicing/controller/AppController.java

@@ -1,0 +1,7 @@
+# Reflection
+
+The most challenging part of this project was implementing the reactive totals panel while keeping the code aligned with the MVC structure requested in the lab. The subtotal, tax, and total had to update immediately when the user added items, removed them, or edited the quantity directly inside the table. To solve that, I created a `CurrentInvoiceModel` with JavaFX `Property` objects and `Bindings`, and I used an `ObservableList` with extractors so the totals react not only when rows are added or removed, but also when an existing row changes.
+
+Another important challenge was connecting both screens without placing business logic in the `Main` class. I solved this by using shared services: one service manages the catalog and another one manages invoice creation and storage. That allowed the New Invoice screen to save drafts or generated invoices, while the Invoice History screen automatically reflects the saved data from the shared repository.
+
+Finally, I had to keep the implementation faithful to the requested specification: separate FXML files, editable `TableView`, modal form for new products, date-range filtering, and alerts for validations. The solution was to divide responsibilities clearly among models, controllers, and services, so each requirement could be implemented directly without mixing interface layout, business rules, and application state in the same place.
