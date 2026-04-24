@@ -18,13 +18,26 @@ The final product is a desktop invoicing application that allows users to select
 - Validation and alert dialogs for user actions.
 - External CSS stylesheet for the application interface.
 
-## Evidence
-Add screenshots, recordings, or links in this section.
+## Application Evidence
+The following screenshots show the application running and its main workflows.
 
-- Main invoice screen: `Insert screenshot here`
-- Invoice history screen: `Insert screenshot here`
-- Demo video: `Insert link here`
-- Class diagram: `Insert image here`
+| New Invoice Screen | Customer and Product Data Entry |
+| --- | --- |
+| ![New Invoice Screen](app_evidences/Ev1.png) | ![Customer and Product Data Entry](app_evidences/Ev2.png) |
+
+| Invoice History Screen |
+| --- |
+| ![Invoice History Screen](app_evidences/Ev3.png) |
+
+## Deliverables
+All requested deliverables are included in the `deliverables` folder.
+
+- Demo video: [Open Demo.mov](deliverables/Demo.mov)
+- Reflection document: [Open Reflection PDF](deliverables/Sprint%202%20-%20Java%20-%20Reflection.pdf)
+- Class diagram image: [Open model-class-diagram.png](deliverables/model-class-diagram.png)
+
+### Class Diagram Preview
+![Class Diagram](deliverables/model-class-diagram.png)
 
 ## How to Run the Project
 ### Prerequisites

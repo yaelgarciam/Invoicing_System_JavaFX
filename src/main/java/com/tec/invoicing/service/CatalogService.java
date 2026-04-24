@@ -12,15 +12,15 @@ public class CatalogService {
 
     public CatalogService() {
         customers.addAll(
-                new Customer("Alpha Technologies", "ATX010203AB1", "1450 Innovation Ave, Austin, TX"),
-                new Customer("Blue Orbit Systems", "BOS040506CD2", "88 Silicon Road, San Jose, CA"),
-                new Customer("Nova Digital Labs", "NDL070809EF3", "2400 Spectrum Blvd, Irvine, CA"),
-                new Customer("Quantum Softworks", "QSW101112GH4", "315 Data Park, Seattle, WA"),
-                new Customer("Vertex Cloud Solutions", "VCS131415IJ5", "920 Network Street, Miami, FL")
+                new Customer("Teus Net", "TNPL001", "88 Silicon Valley, San Jose, CA"),
+                new Customer("Parlocos", "PLJJ002", "98 Silicon Valley, San Jose, CA"),
+                new Customer("ChuvaBot", "CHBT003", "108 Silicon Valley, San Jose, CA"),
+                new Customer("El Tigre", "ELTG004", "118 Silicon Valley, San Jose, CA"),
+                new Customer("Mitica"  , "MITA005", "128 Silicon Valley, San Jose, CA")
         );
 
         products.addAll(
-                new Product("Laptop Pro 14", "SKU-1001", 18999.00),
+                new Product("MacBookAir M4", "SKU-1001", 19999.00),
                 new Product("Mechanical Keyboard", "SKU-1002", 1499.00),
                 new Product("Wireless Mouse", "SKU-1003", 799.00),
                 new Product("27\" Monitor", "SKU-1004", 5299.00),
